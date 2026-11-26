@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VEERABHADRA MUDRANAALAYA | Wedding Cards, Flex & Bill Books</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#f97316" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="container nav-content">
+      <a href="#home" class="brand">
+        <span class="brand-icon"><i class="fa-solid fa-pen-nib"></i></span>
+        <span class="brand-text" id="shopNameNav">VEERABHADRA MUDRANAALAYA</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#services">Services</a>
+        <a href="#samples">Our Work</a>
+        <a href="#process">How It Works</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#" class="btn btn-outline direct-call-btn" aria-label="Call Now">
+          <i class="fa-solid fa-phone"></i> <span>Call Now</span>
+        </a>
+        <a href="#" class="btn btn-primary direct-wa-btn">
+          <i class="fa-brands fa-whatsapp"></i> <span>WhatsApp</span>
+        </a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <button id="installAppBtn" class="btn btn-secondary" style="display: none;">
+          <i class="fa-solid fa-download"></i> <span>Install App</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <span class="badge"><i class="fa-solid fa-bolt"></i> Fast Turnaround & Custom Designs</span>
+        <h1>Creative Print & Graphic Designs for Every Occasion</h1>
+        <p>
+          From traditional & modern <strong>Marriage Cards</strong> to business <strong>Bill Books</strong>, 
+          eye-catching <strong>Flex Banners</strong>, and custom branding—inspect full design details and message us directly on WhatsApp to start your order.
+        </p>
+        <div class="hero-buttons">
+          <a href="#samples" class="btn btn-primary btn-lg">
+            Browse Designs & Details
+          </a>
+          <a href="#" class="btn btn-secondary btn-lg direct-wa-btn">
+            <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+          </a>
+        </div>
+        <div class="hero-highlights">
+          <div><i class="fa-solid fa-circle-check"></i> Custom Layouts</div>
+          <div><i class="fa-solid fa-circle-check"></i> Print-Ready Quality</div>
+          <div><i class="fa-solid fa-circle-check"></i> Quick Revisions</div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="showcase-card main-card">
+          <div class="card-tag">Most Requested</div>
+          <i class="fa-solid fa-envelope-open-text visual-icon"></i>
+          <h3>Wedding & Event Cards</h3>
+          <p>Traditional, royal & digital invitation designs tailored to your ceremony.</p>
+        </div>
+        <div class="mini-cards-row">
+          <div class="showcase-card mini-card">
+            <i class="fa-solid fa-file-invoice"></i>
+            <h4>Bill Books & Forms</h4>
+          </div>
+          <div class="showcase-card mini-card">
+            <i class="fa-solid fa-panorama"></i>
+            <h4>Flex & Hoardings</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="section bg-light" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="sub-label">WHAT WE DESIGN</span>
+        <h2>Complete Graphic & Printing Design Solutions</h2>
+        <p>Select any service below to request a quote or share your details directly on WhatsApp.</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon"><i class="fa-solid fa-heart"></i></div>
+          <h3>Marriage & Invitation Cards</h3>
+          <p>Custom Hindu, Muslim, Christian & modern wedding cards, engagement invites, and housewarming cards.</p>
+          <button class="service-wa-trigger" data-service="Marriage / Invitation Card Design">
+            Enquire on WhatsApp <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon"><i class="fa-solid fa-book-open"></i></div>
+          <h3>Bill Books & Receipt Pads</h3>
+          <p>GST invoices, cash memos, delivery challans, letterheads, and multi-copy carbonless bill book layouts.</p>
+          <button class="service-wa-trigger" data-service="Bill Book / Invoice Design">
+            Enquire on WhatsApp <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon"><i class="fa-solid fa-panorama"></i></div>
+          <h3>Flex, Banners & Hoardings</h3>
+          <p>Shop name boards, political & event banners, birthday flex designs, vinyl stickers, and backdrop prints.</p>
+          <button class="service-wa-trigger" data-service="Flex / Banner Design">
+            Enquire on WhatsApp <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon"><i class="fa-solid fa-id-card"></i></div>
+          <h3>Visiting Cards & Brochures</h3>
+          <p>Single/double-sided business cards, pamphlets, flyers, restaurant menus, and tri-fold brochures.</p>
+          <button class="service-wa-trigger" data-service="Visiting Card / Brochure Design">
+            Enquire on WhatsApp <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon"><i class="fa-solid fa-tags"></i></div>
+          <h3>Product Labels & Packaging</h3>
+          <p>Custom sticker labels, box packaging designs, pouch graphics, and barcode-ready layouts for local brands.</p>
+          <button class="service-wa-trigger" data-service="Product Label / Packaging Design">
+            Enquire on WhatsApp <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+          <h3>Logos & Social Media Posts</h3>
+          <p>Brand identity logos, festival greeting posters, WhatsApp status ads, and promotional flyers.</p>
+          <button class="service-wa-trigger" data-service="Logo / Social Media Poster Design">
+            Enquire on WhatsApp <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio / Sample Works -->
+  <section class="section" id="samples">
+    <div class="container">
+      <div class="section-header">
+        <span class="sub-label">OUR WORK SAMPLES</span>
+        <h2>Browse Design Samples & Specifications</h2>
+        <p>Click any design below to inspect full dimensions, paper/material specs, and turnaround time before messaging us.</p>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="filter-bar" id="filterBar">
+        <button class="filter-btn active" data-filter="all">All Works</button>
+        <button class="filter-btn" data-filter="wedding">Marriage Cards</button>
+        <button class="filter-btn" data-filter="billbook">Bill Books</button>
+        <button class="filter-btn" data-filter="flex">Flex & Banners</button>
+        <button class="filter-btn" data-filter="branding">Visiting Cards & Logos</button>
+      </div>
+
+      <!-- Samples Grid -->
+      <div class="samples-grid" id="samplesGrid"></div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section class="section bg-light" id="process">
+    <div class="container">
+      <div class="section-header">
+        <span class="sub-label">SIMPLE PROCESS</span>
+        <h2>How to Order Your Design</h2>
+      </div>
+
+      <div class="steps-grid">
+        <div class="step-card">
+          <span class="step-num">01</span>
+          <h3>Inspect Sample Details</h3>
+          <p>Open any sample card to check available sizes, paper/material quality, and delivery time.</p>
+        </div>
+        <div class="step-card">
+          <span class="step-num">02</span>
+          <h3>Chat on WhatsApp</h3>
+          <p>Tap enquire inside the sample details or call us directly to send your text, photos, or shop name.</p>
+        </div>
+        <div class="step-card">
+          <span class="step-num">03</span>
+          <h3>Preview & Finalize</h3>
+          <p>We share a draft preview on WhatsApp for your approval before finalizing the print-ready design.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick Inquiry Form -> Sends straight to WhatsApp -->
+  <section class="section" id="contact">
+    <div class="container contact-wrapper">
+      <div class="contact-info">
+        <span class="sub-label">GET IN TOUCH</span>
+        <h2>Ready to Start Your Design?</h2>
+        <p>Reach out directly via WhatsApp or phone call, or fill out the quick requirement box to send a formatted message in one click.</p>
+
+        <div class="info-list">
+          <div class="info-item">
+            <i class="fa-brands fa-whatsapp"></i>
+            <div>
+              <strong>WhatsApp Chat</strong>
+              <p id="displayWaNumber">+91 8332929932</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fa-solid fa-phone-volume"></i>
+            <div>
+              <strong>Direct Phone Call</strong>
+              <p id="displayCallNumber">+91 8332929932</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <div>
+              <strong>Shop Location</strong>
+              <p id="displayAddress">Majestic street, Kakinada, Andhra Pradesh</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <i class="fa-solid fa-clock"></i>
+            <div>
+              <strong>Working Hours</strong>
+              <p>Mon – Sat: 9:30 AM – 8:30 PM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <form class="inquiry-form" id="inquiryForm">
+        <h3>Quick WhatsApp Enquiry</h3>
+        <div class="form-group">
+          <label for="custName">Your Name</label>
+          <input type="text" id="custName" placeholder="Enter your name" required />
+        </div>
+        <div class="form-group">
+          <label for="designType">Design Type</label>
+          <select id="designType" required>
+            <option value="Marriage / Invitation Card">Marriage / Invitation Card</option>
+            <option value="Bill Book / GST Invoice">Bill Book / GST Invoice</option>
+            <option value="Flex / Banner / Shop Board">Flex / Banner / Shop Board</option>
+            <option value="Visiting Card / Pamphlet">Visiting Card / Pamphlet</option>
+            <option value="Logo / Label / Other Design">Logo / Label / Other Design</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="designDetails">Size / Quantity / Details</label>
+          <textarea id="designDetails" rows="3" placeholder="Example: Need 10x4 ft shop flex banner or 500 marriage cards..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full">
+          <i class="fa-brands fa-whatsapp"></i> Send Details on WhatsApp
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; <span id="year"></span> <strong id="shopNameFooter">VEERABHADRA MUDRANAALAYA</strong>. All Rights Reserved.</p>
+      <div class="footer-links">
+        <a href="#" class="direct-wa-btn">WhatsApp Us</a>
+        <a href="#" class="direct-call-btn">Call Shop</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Full Details Modal for Showcase Products -->
+  <div class="modal-backdrop" id="sampleModal" aria-hidden="true">
+    <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="closeModalBtn" aria-label="Close Details">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <div class="modal-grid">
+        <div class="modal-visual" id="modalVisual"></div>
+
+        <div class="modal-content">
+          <div class="modal-badges">
+            <span class="sample-cat" id="modalCategory">Category</span>
+            <span class="modal-code-pill" id="modalCode">CODE</span>
+          </div>
+          <h3 id="modalTitle">Design Title</h3>
+          <p class="modal-desc" id="modalDesc">Full description goes here.</p>
+
+          <div class="specs-box">
+            <div class="spec-row">
+              <span><i class="fa-solid fa-ruler-combined"></i> Available Sizes</span>
+              <strong id="modalSize">-</strong>
+            </div>
+            <div class="spec-row">
+              <span><i class="fa-solid fa-layer-group"></i> Paper / Material</span>
+              <strong id="modalMaterial">-</strong>
+            </div>
+            <div class="spec-row">
+              <span><i class="fa-solid fa-clock"></i> Turnaround Time</span>
+              <strong id="modalTime">-</strong>
+            </div>
+            <div class="spec-row">
+              <span><i class="fa-solid fa-indian-rupee-sign"></i> Starting / Order Info</span>
+              <strong id="modalPrice">-</strong>
+            </div>
+          </div>
+
+          <div class="modal-includes">
+            <h4>What's Included:</h4>
+            <ul id="modalIncludesList"></ul>
+          </div>
+
+          <div class="modal-actions">
+            <button class="btn btn-primary btn-full" id="modalWaBtn">
+              <i class="fa-brands fa-whatsapp"></i> Enquire About This Design on WhatsApp
+            </button>
+            <a href="#" class="btn btn-outline btn-full direct-call-btn">
+              <i class="fa-solid fa-phone"></i> Call Shop Directly
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating Quick-Action Buttons -->
+  <div class="floating-actions">
+    <a href="#" class="float-btn float-call direct-call-btn" title="Call Directly">
+      <i class="fa-solid fa-phone"></i>
+    </a>
+    <a href="#" class="float-btn float-wa direct-wa-btn" title="Chat on WhatsApp">
+      <i class="fa-brands fa-whatsapp"></i>
+      <span>Chat Now</span>
+    </a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
