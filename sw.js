@@ -1,5 +1,5 @@
 // Change v1 -> v2 -> v3 whenever you want to force-clear old caches
-const CACHE_NAME = "veerabhadra-app-v1";
+const CACHE_NAME = "veerabhadra-app-v2";
 const ASSETS = ["/", "/index.html", "/style.css", "/script.js", "/manifest.json"];
 
 // 1. Install and immediately take over without waiting
