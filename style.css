@@ -1049,3 +1049,13 @@ body {
     gap: 2px;
   }
 }
+.footer {
+    padding: 24px 0 92px;
+    text-align: center;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
